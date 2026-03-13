@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ryxel — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body class="portfolio-page">
+
+  <nav class="navbar">
+    <a href="mainpage.html" class="nav-logo">Ry<span>xel</span></a>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-left">
+      <h1 class="hero-title">Hi! I'm <span class="orange">Ryxel</span></h1>
+      <h2 class="hero-sub">I am a <span class="orange typed" id="typed"></span><span class="cursor">|</span></h2>
+      <p class="hero-bio">I'm a professional video editor, content creator, thumbnail artist, and web developer who specializes in creating engaging digital experiences. From editing high-quality videos and eye-catching thumbnails to building modern responsive websites, I help creators and brands bring their ideas to life online.</p>
+      <div class="hero-socials">
+        <a href="https://www.youtube.com/@notryxel_yt" class="icon-btn" title="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/suaksheer" class="icon-btn" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://discord.gg/UvMyrgBc9G" class="icon-btn" title="Discord"><i class="fab fa-discord"></i></a>
+      </div>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-secondary">Contact</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="avatar-circle">
+        <div class="avatar-inner">
+        <img src="img/pfp-zoomed.png" alt="Ryxel" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <h2 class="section-title">About <span class="orange">Me</span></h2>
+    <div class="about-grid">
+      <div class="about-card">
+        <i class="fas fa-video"></i>
+        <h3>Video Editing</h3>
+        <p>High-quality video edits for YouTubers, brands, and creators using Adobe Premiere Pro & After Effects.</p>
+      </div>
+      <div class="about-card">
+        <i class="fas fa-image"></i>
+        <h3>Thumbnail Design</h3>
+        <p>Eye-catching thumbnails that drive clicks, designed with Photoshop and creative visual strategies.</p>
+      </div>
+      <div class="about-card">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>Modern, responsive websites built from scratch — clean code, great UX, and fast performance.</p>
+      </div>
+    </div>
+
+    <div class="tools-section">
+      <h3 class="tools-title">Tools I Use</h3>
+      <div class="tools-list">
+        <div class="tool-badge ae">Ae</div>
+        <div class="tool-badge pr">Pr</div>
+        <div class="tool-badge ps">Ps</div>
+        <div class="tool-badge html">HTML</div>
+        <div class="tool-badge css">CSS</div>
+        <div class="tool-badge js">JS</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="projects" id="projects">
+    <h2 class="section-title">My <span class="orange">Projects</span></h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-thumb video-thumb">
+          <i class="fas fa-play-circle"></i>
+        </div>
+        <div class="project-info">
+          <h3>YouTube Video Edit</h3>
+          <p>Full cinematic edit with motion graphics and color grading.</p>
+          <span class="tag">Premiere Pro</span>
+          <span class="tag">After Effects</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb thumb-thumb">
+          <i class="fas fa-image"></i>
+        </div>
+        <div class="project-info">
+          <h3>Thumbnail Pack</h3>
+          <p>Custom thumbnail designs for a gaming YouTube channel.</p>
+          <span class="tag">Photoshop</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb web-thumb">
+          <i class="fas fa-globe"></i>
+        </div>
+        <div class="project-info">
+          <h3>Portfolio Website</h3>
+          <p>This very website — built with HTML, CSS & JS from scratch.</p>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <h2 class="section-title">Get In <span class="orange">Touch</span></h2>
+    <p class="contact-sub">Have a project in mind? Let's work together.</p>
+    <div class="contact-links">
+      <a href="https://www.youtube.com/@notryxel_yt" class="contact-card">
+        <i class="fab fa-youtube"></i>
+        <span>YouTube</span>
+      </a>
+      <a href="https://www.instagram.com/suaksheer" class="contact-card">
+        <i class="fab fa-instagram"></i>
+        <span>Instagram</span>
+      </a>
+      <a href="https://discord.gg/UvMyrgBc9G" class="contact-card">
+        <i class="fab fa-discord"></i>
+        <span>Discord</span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 <span class="orange">Ryxel</span>. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
